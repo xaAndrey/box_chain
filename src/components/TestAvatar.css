@@ -1,0 +1,64 @@
+.cls-1 {
+    isolation: isolate;
+    width: 90%;
+}
+.body_gradient{fill:url(#body_gradient_data);}
+.body_belly_behind{fill:#648f6c;}
+.body_belly_front{fill:#b1ad9e;mix-blend-mode:overlay;}
+.outline_color{fill:#394936;}
+.outline_color{fill:#394936;}
+.mask_color{fill:#bc916f;}
+.mask_lines,.outline_color{fill:#394936;}
+.mask_lines{fill-opacity:0.55;}
+
+.parts_of_mascot {
+    position: relative;
+}
+
+.mascot_horns {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.mascot_mask {
+    position: absolute;
+    top: 15vh;
+    left: 0;
+    z-index: 1;
+}
+
+.mascot_body {
+    position: absolute;
+    left: 0;
+    top: 10vh;
+}
+
+.red {
+    fill: #E64646;
+}
+
+.orange {
+    fill: #FFA000;
+}
+
+.yellow {
+    fill: #FFC107;
+}
+
+.green {
+    fill: #2F9A5A;
+}
+
+.blue {
+    fill: #2787F5;
+}
+
+.deep_blue {
+    fill: #4367A3;
+}
+
+.violet {
+    fill: #792EC0;
+}

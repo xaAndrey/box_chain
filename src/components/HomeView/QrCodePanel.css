@@ -1,0 +1,59 @@
+.qr_root {
+    background-color: #2F9A5A;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.qr_border {
+    background-color: white;
+    padding: 1.5em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg_qr {
+    background-image: url("../../img/qrCode/qrBg.svg");
+    background-size: 120%;
+    background-position: -5em;
+}
+
+.qr_bottom_panel {
+    background-color: white;
+    height: 18vh;
+    transition: height ease 0.5s;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    border-radius: 1em 1em 0 0;
+    box-shadow: 0 -5px 10px #28834d;
+}
+
+.qr__button {
+    position: absolute;
+    bottom: 3vh;
+    width: 90%;
+    background-color: #2F9A5A;
+    box-shadow: 0 5px 15px #424242;
+    border-radius: 1em;
+    height: 3.8vh;
+}
+
+.qr_bottom_panel__desc {
+    margin-top: 1.5vh;
+    color: #424242;
+    width: 90%;
+}

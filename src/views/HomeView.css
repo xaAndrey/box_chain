@@ -1,0 +1,149 @@
+.home_root {
+    background-color: #2F9A5A;
+    background-image: url("../img/homePage/background.svg");
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    bottom: 0.5em;
+}
+
+.bottom_panel {
+    background-color: white;
+    height: 20vh;
+    transition: height ease 0.5s;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    z-index: 5;
+    bottom: 0;
+    border-radius: 1em 1em 0 0;
+    box-shadow: 0 -5px 10px #28834d;
+}
+
+.expanded {
+    height: 52vh !important;
+    transition: height ease 0.5s;
+}
+
+.bottom_panel__points {
+    position: absolute;
+    top: -1.2em;
+    font-size: 7vh;
+}
+
+.bottom_panel__level {
+    font-size: xx-large;
+}
+
+.message_cloud {
+    width: 85%;
+    position: absolute;
+    z-index: 2;
+    top: 9vh;
+}
+
+.message_cloud_title {
+    width: 50%;
+    color: #2F9A5A;
+    position: absolute;
+    z-index: 3;
+    top: 16vh;
+}
+
+.message_cloud_text {
+    width: 50%;
+    color: #424242;
+    position: absolute;
+    z-index: 3;
+    top: 19vh;
+    line-height: 1;
+}
+
+.mascot {
+    position: absolute;
+    width: 63%;
+    top: 22vh;
+    left: 12vh;
+}
+
+.home__toolbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__toolbar > * {
+    margin: 0.3em;
+    text-align: center;
+}
+
+.toolbar__button {
+    width: 6.6vh;
+    height: 6.5vh;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 7px #707070;
+}
+
+.toolbar__button:hover {
+    opacity: 0.5;
+    transition: opacity ease 0.5s;
+    box-shadow: none;
+}
+
+.bottom_panel__progressbar {
+    width: 90%;
+    height: 5vh;
+    max-height: 5vh;
+    border-radius: 1em;
+    flex-basis: 60%;
+    margin-top: 1em;
+    margin-bottom: 0.8em;
+    background-color: #2F9A5A !important;
+    padding: 0.5em;
+}
+
+.bottom_panel__progressbar > .vkuiProgress__in.Progress__in {
+    background-color: #ffffff;
+    border-radius: 1em 0 0 1em;
+}
+
+.back_button {
+    position: absolute;
+    top: 1.2vh;
+    left: 1.2vh;
+    background-color: #2F9A5A;
+    height: 4.5vh;
+}
+
+.view_title {
+    position: absolute;
+    top: 2vh;
+    color: #424242;
+}
+
+.home__coin {
+    width: 6vh;
+}
+
+.home__list {
+    width: 100%;
+    color: #424242;
+}
+
+.vkuiSimpleCell__children {
+    color: #424242;
+}

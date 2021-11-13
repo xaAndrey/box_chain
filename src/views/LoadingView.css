@@ -1,0 +1,46 @@
+.root {
+    background-color: #2F9A5A;
+    background-image: url("../img/loading/background.svg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 11vh;
+    width: 90%;
+    text-align: center;
+    margin-top: 7vh;
+    font-family: "Al Tarikh", serif;
+}
+
+.spinner {
+    width: 9vh;
+    height: 9vh;
+    position: absolute;
+    bottom: 5em;
+    animation:spin 3s linear infinite;
+}
+
+.logo {
+    width: 15vh;
+    height: 15vh;
+    position: absolute;
+    top: 15vh;
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.greeting {
+    font-size: xx-large;
+    margin-top: 5vh;
+}

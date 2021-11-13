@@ -1,0 +1,9 @@
+.custom_popout {
+    background-color: #2F9A5A;
+    border-radius: 1em;
+    position: relative;
+    padding: 1em;
+    margin: 1em;
+    box-shadow: 0 0 10px #707070;
+    text-align: center;
+}

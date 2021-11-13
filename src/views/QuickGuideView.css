@@ -1,0 +1,174 @@
+.guide__root {
+    background-color: #2F9A5A;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.guide__bottom_panel {
+    background-color: white;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    border-radius: 1em 1em 0 0;
+}
+
+.bottom_panel__title {
+    font-size: x-large;
+    width: 90%;
+    color: #424242;
+    margin-top: 2.5vh;
+}
+
+.bottom_panel__desc {
+    margin-top: 1.5vh;
+    color: #424242;
+    width: 80%;
+}
+
+.bottom_panel__link {
+    position: absolute;
+    bottom: 11vh;
+    width: 80%;
+    height: 6vh;
+    background-color: #2F9A5A;
+    box-shadow: 0 5px 15px #424242;
+    border-radius: 1em;
+    text-decoration: none;
+    color: #DAE0E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg_vstu {
+    background-image: url("../img/vstu/background.svg");
+}
+
+.guide__avatarBorder {
+    width: 40vh;
+    height: 40vh;
+    position: absolute;
+    top: 20vh;
+}
+
+.guide__avatar {
+    width: 32vh;
+    height: 32vh;
+    border-radius: 50%;
+    position: absolute;
+    top: 24vh;
+}
+
+.guide__vstu_logo {
+    width: 40vh;
+    height: 40vh;
+    position: absolute;
+    top: 11em;
+}
+
+.guide__title {
+    font-size: xx-large;
+    margin-top: 45vh;
+}
+
+.guide__points {
+    font-size: 5vh;
+}
+
+.guide__description {
+    width: 80%;
+}
+
+.guide__button {
+    position: absolute;
+    bottom: 3.5vh;
+    width: 80%;
+    background-color: #2F9A5A;
+    box-shadow: 0 5px 15px #424242;
+    border-radius: 1em;
+    height: 3.8vh;
+}
+
+.mini_panel {
+    height: 22vh !important;
+}
+
+.bottom_panel__input {
+    border: none;
+    box-shadow: 0 3px 7px #707070;
+    border-radius: 1em;
+    position: absolute;
+    bottom: 12vh;
+    width: 75%;
+    height: 6vh;
+    transition: box-shadow 0.5s;
+    font-size: large;
+    padding-left: 1em;
+}
+
+.bottom_panel__input:hover {
+    box-shadow: none;
+    transition: box-shadow 0.5s;
+}
+
+.bottom_panel__input:focus {
+    box-shadow: none;
+    border: 1px solid #9f9f9f;
+}
+
+.guide__mascot {
+    position: absolute;
+    top: 9vh;
+    left: 7vh;
+    width: 77%;
+}
+
+.guide__colors {
+    position: absolute;
+    top: 9vh;
+    right: 2vh;
+}
+
+.guide__colors > * {
+    margin: 0.3em;
+    text-align: center;
+}
+
+.toolbar__button {
+    width: 6.6vh;
+    height: 6.5vh;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 7px #707070;
+}
+
+
+.guide__mascot_color {
+    width: 6vh;
+    height: 6vh;
+    border-radius: 1em;
+    margin-bottom: 1vh;
+    cursor: pointer;
+    box-shadow: 0 3px 7px #707070;
+}
+
+.guide__mascot_color:hover {
+    opacity: 0.5;
+    transition: opacity ease 0.5s;
+    box-shadow: none;
+}
